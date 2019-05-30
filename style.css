@@ -1,0 +1,166 @@
+body{
+	background: url("../images/fon.jpg") ;
+}
+main{margin: 0 auto;
+	background-color: transparent;
+	width: 1200px;
+	height: 3600px;
+}
+nav{display: flex;
+	height: 100px;
+	background-color: #9494b8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: white;
+	justify-content: space-between;
+	box-sizing: border-box;
+	position: sticky;
+	top: 0;
+	}
+.img_nav{
+	height: 100px;
+	width: 500px;
+	float: left;
+	display: flex;
+	justify-content: space-around;
+}
+.img_nav img{
+	height: 100px;
+}
+.nav_menu{
+	width: 600px;
+	float: right;
+	height: 100px;
+	text-align: center;
+	margin: 0;
+}
+.nav_menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.nav_menu li{
+	font-family: Times New Ro...;
+	color: white;
+	font-size: 18px;
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+li:hover{
+	background: #bc8cd8;
+	cursor: pointer;
+	color: #402720;
+}
+.misto {
+	font-family: Times New Ro...;
+	color: 	 #a3a3c2;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+    letter-spacing: 3px;
+}
+p::first-letter {
+  font-size: 200%;
+  color: #ba7f32;
+}
+::-moz-selection { /* Code for Firefox */
+  color: #3232ba;
+  background: #d9d9d9;
+}
+::selection {
+  color: #3232ba;
+  background: #d9d9d9;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+.misto img{
+	width: 1200px;
+}
+.foto_misto {
+	width: 100;
+	height: 20;
+	float: left;
+	display: flex;
+	padding: 10px;
+}
+.text_misto {
+	float: right;
+	display: flex;
+	margin: 10px;
+	padding: 60px;
+	background-color: #ffad33;
+	color: white;
+    width: 400px;
+	height: 500px;
+}
+.foto_misto img{
+	width: 600px;
+	height: 620px;
+}
+.video_misto{
+    width: 1000px;
+    height: 640px;
+    display: flex;
+	background-color: #4d88ff;
+	color: white;
+	float: left;
+}
+.video_misto video{
+   width: 960px;
+   height: 600px;
+   padding: 20px;
+}
+.text_fire {
+	float: right;
+	display: flex;
+	padding: 15px;
+	background-color: #4d88ff;
+	color: white;
+    width: 140px;
+    height: 610px;
+}
+::-moz-selection { /* Code for Firefox */
+  color: #3232ba;
+  background: #d9d9d9;
+}
+::selection {
+  color: #3232ba;
+  background: #d9d9d9;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+.photo_luvru {
+	width: 100;
+	height: 20;
+	float: left;
+	display: flex;
+	padding: 10px;
+}
+.text_luvru {
+	float: right;
+	display: flex;
+	margin: 10px;
+	padding: 60px;
+	background-color: #b3ffe6;
+    width: 400px;
+	height: 400px;
+	color:  #007399;
+}
+p::first-letter {
+  font-size: 200%;
+  color: white;
+}
+.photo_luvru img{
+	width: 600px;
+	height: 520px;
+	#cc99ff
